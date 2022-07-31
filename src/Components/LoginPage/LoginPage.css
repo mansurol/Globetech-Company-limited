@@ -9,6 +9,7 @@
 }
 .contentStyle{
     height: 800px;
+    
 }
 
 .Box{
@@ -39,8 +40,12 @@
 
 
 @media only screen and (max-width:480px){
+    .iConStyle {
+        padding-top: 50px;
+    }
+
     .contentStyle{
-        height: 1000px;
+        height: 300px;
     }
 }
 

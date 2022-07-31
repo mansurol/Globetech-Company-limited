@@ -1,16 +1,16 @@
 import React from 'react';
-import './Mainpage.css'
+import './Navs.css'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 
 import {Link} from 'react-router-dom'
-const Mainpage = () => {
+const Navs = () => {
     return (
         <div className='Coloring'>
-            <Navbar expand="lg">
+            <Navbar>
   <Container>
-  <Navbar.Brand as={Link} to="/home"><h2  className='contentColor'>Mansurol-islam</h2></Navbar.Brand>
+  <Navbar.Brand as={Link} to="/home"><h2  className='contentColor'>MansurolIslam</h2></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto ">
@@ -30,4 +30,4 @@ const Mainpage = () => {
     );
 };
 
-export default Mainpage;
+export default Navs;

@@ -1,7 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Routes,Route} from "react-router-dom";
-import CoverPage from './Components/Cover/CoverPage';
-import Homepage from './Components/Home/Homepages'
+import HomePage from './Components/HomePage/HomePage';
+import LoginPage from './Components/LoginPage/LoginPage'
 import Services from './Components/Services/Services';
 const App = () => {
   return (
@@ -9,11 +9,11 @@ const App = () => {
         <BrowserRouter>
       
      <Routes> 
-     <Route path="/" element={ <Homepage/>}/>
+     <Route path="/" element={ <LoginPage/>}/>
 
 
-     <Route path="/home" element={<CoverPage/>}/>
-     <Route path="/login" element={ <Homepage/>}/>
+     <Route path="/home" element={<HomePage/>}/>
+     <Route path="/login" element={ <LoginPage/>}/>
      <Route path="/services" element={ <Services/>}/>
    
      </Routes>

@@ -23,3 +23,16 @@
     animation-name: example;
     animation-duration: 5s;
   }
+
+  @media only screen and (max-width:480px){
+    .OPRight{
+      margin-right: 50px;
+  }
+  
+  }
+
+  @media only screen and (min-width:768px){
+    .OPRight{
+      margin-right: 50px;
+  }
+  }

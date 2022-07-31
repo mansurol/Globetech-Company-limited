@@ -1,14 +1,14 @@
 import React from 'react';
 import Container from 'react-bootstrap/esm/Container';
-import Mainpage from '../MainPage/Mainpage';
+import Navs from '../Navs/Navs';
 import Img1 from '../Img/RC-EDF-Jet-Airplane-MINI-L39-50mm-Remote-Control-Aircraft-Toy.jpg_Q90.jpg_.webp'
 import Img2 from '../Img/earth-planet-solar-system-outer-space-png-favpng-jfMehRmSueV8ZGeNukWGP8QiB.jpg'
-import './CoverPage.css'
+import './HomePage.css'
 import Button from 'react-bootstrap/Button'
-const CoverPage = () => {
+const HomePage = () => {
     return (
         <div className='bgColor3'>
-            <Mainpage/>
+            <Navs/>
             <Container>
                 <div className='box4 pt-5'>
                 <img src={Img1}></img>
@@ -18,7 +18,7 @@ const CoverPage = () => {
                 <div>
                            
                 <div className='row '>
-                    <div className='col-sm-6 mt-5 welcomeStyle'>
+                    <div className='col-sm-6 col-md-6 mt-5 welcomeStyle'>
                     <h1 style={{color:"#28ACE2"}}>Welcome to  <br/> <span style={{color:"#D4F456"}}>Globetech</span></h1>
                     <p style={{color:"#28ACE2",textAlign:'justify'}}>There are many variations of passages of Lorem Ipsum available, 
                         but the majority have suffered alteration in some form, 
@@ -33,7 +33,7 @@ const CoverPage = () => {
                          <Button className='btnSTYLE ' variant="outline-primary">Our Mission</Button>
                          </div>  
                      </div>  
-                     <div className='col-sm-6 mt-5 imgStyle d-flex justify-content-end'>
+                     <div className='col-sm-6 mt-5 col-md-6 imgStyle d-flex justify-content-end'>
                      <img src={Img2}/>
                   </div>  
                  </div>
@@ -43,4 +43,4 @@ const CoverPage = () => {
     );
 };
 
-export default CoverPage;
+export default HomePage;

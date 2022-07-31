@@ -11,7 +11,7 @@ const Services = () => {
         <div className='Coloring '>
             <Container>
             <div>
-            <Navbar expand="lg">
+            <Navbar>
 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

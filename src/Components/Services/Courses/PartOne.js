@@ -3,7 +3,7 @@ import './PartOne.css';
 import Card from 'react-bootstrap/Card';
 
 const PartOne = (props) => {
-    const {Img,Title,Day,Content} = props.BlogContent
+    const {Img,Title,Content} = props.BlogContent
     return (
         <div className="pb-4 m-auto ForHover">
             <Card  style={{ width: '21rem', height:'25rem'}}>

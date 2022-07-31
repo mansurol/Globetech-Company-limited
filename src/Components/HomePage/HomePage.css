@@ -1,0 +1,100 @@
+.box4 img{
+    width: 170px;
+    height: 100px;
+   
+    position: relative;
+    border-radius: 40px;
+   
+  }
+
+
+  @keyframes exam {
+    0%   { left:0px; top:0px;}
+    25%  {left:300px; top:0px;}
+  
+  }
+
+
+  .box4 img:hover{
+    animation-name: exam;
+    animation-duration: 7s;
+  }
+  .imgStyle img{
+    width: 470px;
+    height: 400px;
+    border-radius:70%;
+  }
+  .bgColor3 {
+    background-color: #010638;
+  }
+
+  .welcomeStyle h1{
+    font-size: 100px;
+  }
+
+  .btnSTYLE {
+    margin-left: 30px;
+  }
+  .imgStyle img:hover{
+    transform: rotate(30deg);
+  }
+
+  
+
+@media only screen and (min-width:768px){
+  .welcomeStyle h1{
+    font-size: 60px;
+    text-align: center;
+
+    
+  }
+
+  .imgStyle img{
+    width: 320px;
+    height: 360px;
+    border-radius:70%;
+  }
+
+  .imgStyle img:hover{
+    transform: rotate(30deg);
+  }
+
+
+
+  
+}
+@media only screen and (max-width:480px){
+  .welcomeStyle h1{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .imgStyle img{
+    width: 350px;
+    height: 350px;
+    border-radius:70%;
+    padding-bottom: 20px;
+  }
+  .box4 img{
+    width: 100px;
+    height: 70px;
+   
+    position: relative;
+    border-radius: 40px;
+   
+  }
+  @keyframes exams {
+    0%   { left:0px; top:0px;}
+    35%  {left:150px; top:0px;}
+  
+  }
+
+  .box4 img:hover{
+    animation-name: exams;
+    animation-duration: 4s;
+  }
+
+
+
+
+}
