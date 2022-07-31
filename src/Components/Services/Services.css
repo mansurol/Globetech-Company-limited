@@ -1,0 +1,25 @@
+.OPRight{
+    margin-right: 150px;
+}
+
+
+.box3 img{
+    width: 170px;
+    height: 100px;
+   
+    position: relative;
+    border-radius: 40px;
+   
+  }
+
+  
+  @keyframes example {
+    0%   { left:0px; top:0px;}
+    100%  {left:80%; top:0px;}
+  
+  }
+
+ .box3 img:hover{
+    animation-name: example;
+    animation-duration: 5s;
+  }

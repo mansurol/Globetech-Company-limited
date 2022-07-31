@@ -1,0 +1,46 @@
+.iConStyle {
+    padding-top: 500px;
+}
+.bgColorTwo {
+    background-color: #D3CDC3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentStyle{
+    height: 800px;
+}
+
+.Box{
+
+    
+    background-color:#fff;
+    padding: 15px;
+}
+.input-element-wrapper{
+    display: flex;
+   
+}
+.password-field{
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    padding-right:2.8rem ;
+}
+.btns{
+    padding: 0.6rem;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-left: -2.76rem;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width:480px){
+    .contentStyle{
+        height: 1000px;
+    }
+}
+

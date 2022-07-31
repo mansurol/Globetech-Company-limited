@@ -1,0 +1,21 @@
+.Coloring {
+    background-color: #010638;
+}
+
+.contentColor {
+    color: #28ACE2;
+}
+.menuContent{
+    color: #28ACE2;
+    padding: 10px;
+}
+.menuContent :hover{
+    color: #D7F561;
+ 
+}
+.navbar-nav .nav-link.active {
+    color: #D7F561;
+}
+.PRight :hover{
+    padding-right: 15px;
+}

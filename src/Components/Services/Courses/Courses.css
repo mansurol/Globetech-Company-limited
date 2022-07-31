@@ -1,0 +1,33 @@
+
+
+@media only screen and (min-width:768px){
+    .friend-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap :15px;
+       
+      
+    }
+    
+ }
+ @media only screen and (max-width:480px){
+    .friend-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap :15px;
+        margin: auto;
+       
+      
+    }
+ }
+ 
+ @media only screen and (min-width:992px){
+    .friend-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap :15px;
+       
+      
+    }
+ }
+ 
